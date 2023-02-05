@@ -1,0 +1,44 @@
+/* Styles for the about container */
+.about-container {
+  width: 80%;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Styles for the about title */
+.about-title {
+  text-align: center;
+  color: #333;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Styles for the about content */
+.about-content {
+  line-height: 1.5;
+  font-size: 16px;
+  color: #555;
+  text-align: justify;
+}
+/* Styles for the about content */
+.about-content p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  text-align: justify;
+  color: #333;
+}
+/* Styles for the highlighted words */
+.highlight {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: 600;
+  padding: 2px 5px;
+  border-radius: 4px;
+}

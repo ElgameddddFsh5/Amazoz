@@ -1,0 +1,32 @@
+.ShoppingCart {
+  position: relative;
+}
+.ShoppingCart p {
+}
+.CartItems {
+  position: absolute;
+  right: -20px;
+  top: -5px;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0px 5px;
+  font-size: 13px;
+}
+
+.WishListItem {
+  position: absolute;
+  right: -20px;
+  top: -5px;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0px 5px;
+  font-size: 13px;
+}
+
+.MainNavBar {
+  position: fixed;
+  z-index: 50;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+}

@@ -1,0 +1,33 @@
+.discountText {
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  overflow: hidden;
+  /* width: 200px; */
+  padding: 25px;
+}
+
+.discountBanner img {
+  border-radius: 30px;
+  width: 100%;
+}
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+  .discountText {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .discountText {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .discountText {
+    font-size: 17px;
+  }
+}

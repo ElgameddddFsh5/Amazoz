@@ -1,0 +1,42 @@
+.slick-slider {
+  max-height: 600px;
+  overflow: hidden;
+  /* border-radius: 5px; */
+  /* margin-top: 2rem; */
+}
+
+.slick-slider img {
+  height: 400px;
+  width:100%;
+  object-fit: fill;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.205);
+  color: #fff;
+  padding: 1rem;
+}
+
+.caption h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.caption p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.caption a {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #2693f9;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+}

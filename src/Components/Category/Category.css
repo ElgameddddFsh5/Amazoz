@@ -1,0 +1,103 @@
+.category-button {
+  padding: 10px 20px;
+  background-color: #70b2bb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin: 0px 10px 0px 0px;
+}
+
+.category-button:hover {
+  background-color: #3e638e;
+}
+
+.category-button:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+a {
+  text-decoration: none !important;
+}
+.CategoryList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overflow-x: scroll; Enables horizontal scrolling */
+  white-space: nowrap; /* Keeps list items on the same line */
+  width: 100%; /* Fills the entire width of the parent container */
+  height: 50px; /* Sets the height of the container */
+  margin: 0; /* Removes any margins */
+  padding: 0; /* Removes any padding */
+}
+.CategoryList li {
+  display: inline-block; /* Keeps list items on the same line */
+  list-style: none; /* Removes bullet points */
+  padding: 10px; /* Adds padding to the list items */
+  /* margin-right: 10px; Adds a margin between list items */
+  border-radius: 5px; /* Adds rounded corners to the list items */
+}
+.CategoryList li a {
+  color: #fff; /* Sets the text color of the list items */
+}
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .category-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 0px 5px 0px 0px;
+  }
+  .CategoryList {
+    justify-content: flex-start;
+    overflow-x: scroll; /*Enables horizontal scrolling */
+  }
+}
+
+.circle-loader {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 15px solid rgba(180, 180, 180, 0.2);
+  border-top: 15px solid #477cee;
+  animation: animate 1.5s infinite linear;
+  margin: 0 auto;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Youtube Link */
+#yt_link {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -200px;
+  display: block;
+  width: 160px;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: red;
+  border-radius: 2px;
+  animation: showYtLink 1.5s ease 3s forwards;
+}
+
